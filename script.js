@@ -1,2 +1,2 @@
 
-document.getElementById("tut").innerHTML = ("Пррр");
+document.getElementById("tut").innerHTML = (data.email);
