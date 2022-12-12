@@ -1,1 +1,2 @@
-window.alert("Ghdfdfdfdf");
+window.alert(data.email);
+window.alert("Привет");
