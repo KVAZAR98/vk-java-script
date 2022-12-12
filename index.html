@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="./style.css">
   <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
   <script>vkBridge.send('VKWebAppInit');</script>
-  
+  <script src="./script.js"></script>
+
   
   <script>let a = vkBridge.send('VKWebAppGetEmail')
       .then((data) => {
         if (data.email) {
           console.log(data.email)
+        document.getElementById("tut").innerHTML = (data.email)
         }
       })
       .catch((error) => {
@@ -20,8 +22,6 @@
         console.log(error);
       });
   </script>
-<script src="./script.js"></script>
-
 
 
 
