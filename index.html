@@ -10,7 +10,7 @@
   <script src="./script.js"></script>
 
   
-  <script>let a = (data.email) = vkBridge.send('VKWebAppGetEmail')
+  <script>vkBridge.send('VKWebAppGetEmail')
       .then((data) => {
         if (data.email) {
           console.log(data.email)
