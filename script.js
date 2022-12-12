@@ -1,2 +1,1 @@
-console.log(a);
-window.alert(a);
+document.getElementById("email").innerHTML = (data);
