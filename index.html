@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <title>Кликер</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.js"></script>
   <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
-  <script>
-    vkBridge.send('VKWebAppInit');</script>
-  <script> vkBridge.send('VKWebAppGetEmail')
+  <script>vkBridge.send('VKWebAppInit');</script>
+  
+  
+  <script>let a = vkBridge.send('VKWebAppGetEmail')
       .then((data) => {
         if (data.email) {
           console.log(data.email)
@@ -20,7 +20,7 @@
         console.log(error);
       });
   </script>
-
+<script src="./script.js"></script>
 
 
 
