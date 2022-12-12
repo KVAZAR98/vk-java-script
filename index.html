@@ -9,24 +9,13 @@
     <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
     <script>
         // Отправляет событие инициализации нативному клиенту
-        bridge.send('VKWebAppInit')
-  .then((data) => { 
-    if (data.result) {
-      // Приложение инициализировано
-    } else {
-      // Ошибка
-    }
-  })
-  .catch((error) => {
-    // Ошибка
-    console.log(error);
-  });
+        vkBridge.send('VKWebAppInit');
       </script>
 
 </head>
 
 </body>
-<h1 style="color:aqua">Привет</h1>
+<h1 style="color:antiquewhite">Привет</h1>
 </body>
 
 </html>
