@@ -11,4 +11,4 @@ vkBridge.send('VKWebAppGetEmail')
   });
 
 
-window.alert(a);
+window.alert("Ghb");
