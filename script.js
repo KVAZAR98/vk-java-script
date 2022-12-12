@@ -1,4 +1,4 @@
-bridge.send('VKWebAppGetEmail')
+vkBridge.send('VKWebAppGetEmail')
   .then((data) => { 
     if (data.email) {
       // Доступ к электронной почте получен
