@@ -1,3 +1,4 @@
+vkBridge.send('VKWebAppInit');
 vkBridge.send('VKWebAppGetEmail')
   .then((data) => { 
     if (data.email) {
